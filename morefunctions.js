@@ -6,7 +6,7 @@ function findProduct(num1, num3){
 
 }
 
-console.log(`The product of the numbers is ${findProduct(7, 9)}`);
+console.log(`The product is ${findProduct(7, 9)}`);
 
 //substitution strings
 function findSum(num1, num3){
