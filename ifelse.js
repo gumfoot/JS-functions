@@ -64,14 +64,17 @@ else {
 Nested "if" statements - an "if" statement inside another "if" statement.
 */
 let marks;
-if(marks >= 50){
-    if (marks >= 85){
+if (marks > 100 || marks < 0){
+    console.log("Invalid marks")
+}
+else if(marks >= 85){
+
         console.log("Distinction!");
         console.log("Congrats!");
-    }
-    else{
+}
+    else if(marks >= 50 && marks < 85){
         console.log("Yay. You passed.");
-    }
+    
 }
 else{
     console.log("You should probably try again.");

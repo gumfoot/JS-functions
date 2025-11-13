@@ -4,4 +4,3 @@ function sum(num1, num2){
 }
 
 let answer = sum(2, 3);
-console.log(answer);
