@@ -7,25 +7,26 @@ Block-level
 
 Local(Function) scoped - variable only accessible within the function.
 They are called local variables
+*/
 function greet(){
     let message = "Hello"; - local variable
     console.log(message);
 } 
 greet();
 
-
+/*
 Global scoped - can be accessed both inside and outside of a function.
-
+*/
 let message = "Hello"; //- global variable
 function greet(){
     console.log("Local:", message);
 }
 greet();
 console.log("Global:", message);
-If a variable is used without declaration, it becomes a global variable.
+//If a variable is used without declaration, it becomes a global variable.
 
 
-Blocked scope - accessible only within block they are in, could be smaller than function block.
+//Blocked scope - accessible only within block they are in, could be smaller than function block.
 
 function getScope(){
     let message = "Hello"; //- local variable
