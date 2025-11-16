@@ -137,5 +137,5 @@ function basicCalculator(num1, num2, op){
 
     }
 }
-console.log(basicCalculator(44, 3, "/"))
+console.log(basicCalculator(5, 128, "*"))
 
