@@ -9,7 +9,7 @@ Local(Function) scoped - variable only accessible within the function.
 They are called local variables
 */
 function greet(){
-    let message = "Hello"; - local variable
+    let message = "Hello"; - //local variable
     console.log(message);
 } 
 greet();
