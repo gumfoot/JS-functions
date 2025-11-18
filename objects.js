@@ -79,7 +79,7 @@ const homoSapien = {
     speak : function greet(){
         console.log("Jason says hi");
     },
-    //object as a value for an object(Nested objects)
+    //object as a value for an object key(Nested objects)
     marks : {
         Science : 80,
         Math : 70,
