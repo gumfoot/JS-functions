@@ -50,3 +50,4 @@ catch(error){
 finally{
     console.log("This will be executed every time.")
 }
+
