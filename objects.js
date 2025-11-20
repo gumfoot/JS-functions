@@ -14,6 +14,7 @@ const objectName = {
 Key-value pairs are reffered to as properties of the object.
 So key1 : value1 are properties of object objectName.
 */
+
 //Properties can be accessed using their keys.
 //dot notation
 const dog = {
