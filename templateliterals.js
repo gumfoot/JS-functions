@@ -14,3 +14,9 @@ function findSum(num1, num3){
 }
 
 console.log("The sum of the two numbers is %d", 4 + 7);
+
+//Multiline strings using template literals
+let address = `90210 Main St.
+Kingston, Jamaica`
+
+console.log(address);
